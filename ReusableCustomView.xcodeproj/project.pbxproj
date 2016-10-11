@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		708E14411DAD20AE0043C221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E14401DAD20AE0043C221 /* AppDelegate.swift */; };
-		708E14431DAD20AE0043C221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E14421DAD20AE0043C221 /* ViewController.swift */; };
+		708E14431DAD20AE0043C221 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E14421DAD20AE0043C221 /* FirstVC.swift */; };
 		708E14461DAD20AE0043C221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708E14441DAD20AE0043C221 /* Main.storyboard */; };
 		708E14481DAD20AE0043C221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708E14471DAD20AE0043C221 /* Assets.xcassets */; };
 		708E144B1DAD20AE0043C221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708E14491DAD20AE0043C221 /* LaunchScreen.storyboard */; };
+		708E14531DAD211B0043C221 /* SpecialLabelsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E14521DAD211B0043C221 /* SpecialLabelsGroupView.swift */; };
+		708E14551DAD212B0043C221 /* SpecialLabelsGroupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708E14541DAD212B0043C221 /* SpecialLabelsGroupView.xib */; };
+		708E14571DAD34760043C221 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E14561DAD34760043C221 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		708E143D1DAD20AE0043C221 /* ReusableCustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableCustomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708E14401DAD20AE0043C221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		708E14421DAD20AE0043C221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		708E14421DAD20AE0043C221 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		708E14451DAD20AE0043C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		708E14471DAD20AE0043C221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		708E144A1DAD20AE0043C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		708E144C1DAD20AE0043C221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708E14521DAD211B0043C221 /* SpecialLabelsGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialLabelsGroupView.swift; sourceTree = "<group>"; };
+		708E14541DAD212B0043C221 /* SpecialLabelsGroupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialLabelsGroupView.xib; sourceTree = "<group>"; };
+		708E14561DAD34760043C221 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				708E14401DAD20AE0043C221 /* AppDelegate.swift */,
-				708E14421DAD20AE0043C221 /* ViewController.swift */,
+				708E14421DAD20AE0043C221 /* FirstVC.swift */,
+				708E14561DAD34760043C221 /* SecondVC.swift */,
 				708E14441DAD20AE0043C221 /* Main.storyboard */,
 				708E14471DAD20AE0043C221 /* Assets.xcassets */,
 				708E14491DAD20AE0043C221 /* LaunchScreen.storyboard */,
 				708E144C1DAD20AE0043C221 /* Info.plist */,
+				708E14521DAD211B0043C221 /* SpecialLabelsGroupView.swift */,
+				708E14541DAD212B0043C221 /* SpecialLabelsGroupView.xib */,
 			);
 			path = ReusableCustomView;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708E14551DAD212B0043C221 /* SpecialLabelsGroupView.xib in Resources */,
 				708E144B1DAD20AE0043C221 /* LaunchScreen.storyboard in Resources */,
 				708E14481DAD20AE0043C221 /* Assets.xcassets in Resources */,
 				708E14461DAD20AE0043C221 /* Main.storyboard in Resources */,
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708E14431DAD20AE0043C221 /* ViewController.swift in Sources */,
+				708E14431DAD20AE0043C221 /* FirstVC.swift in Sources */,
 				708E14411DAD20AE0043C221 /* AppDelegate.swift in Sources */,
+				708E14531DAD211B0043C221 /* SpecialLabelsGroupView.swift in Sources */,
+				708E14571DAD34760043C221 /* SecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

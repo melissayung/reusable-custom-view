@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpecialLabelsGroupView" customModule="ReusableCustomView" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="q70-7w-b73"/>
+                <outlet property="firstLabel" destination="HKw-UM-rJO" id="X13-cn-WPw"/>
+                <outlet property="secondLabel" destination="Q00-nj-VT4" id="Ced-wS-mFa"/>
+                <outlet property="thirdLabel" destination="ZPU-FB-3qZ" id="zYt-Hq-jV6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKw-UM-rJO">
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.2627450980392157" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q00-nj-VT4">
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.2627450980392157" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-FB-3qZ">
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.2627450980392157" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.20993097250000001" green="0.84313725490000002" blue="0.80160806920000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HKw-UM-rJO" secondAttribute="trailing" constant="15" id="2ya-ta-b3z"/>
+                <constraint firstItem="HKw-UM-rJO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="4pC-wX-S48"/>
+                <constraint firstAttribute="trailing" secondItem="Q00-nj-VT4" secondAttribute="trailing" constant="15" id="Z5b-10-yOh"/>
+                <constraint firstItem="Q00-nj-VT4" firstAttribute="top" secondItem="HKw-UM-rJO" secondAttribute="bottom" constant="20" id="dTf-g0-S9o"/>
+                <constraint firstItem="ZPU-FB-3qZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="eYr-Gw-IZa"/>
+                <constraint firstAttribute="trailing" secondItem="ZPU-FB-3qZ" secondAttribute="trailing" constant="15" id="n0O-qf-row"/>
+                <constraint firstAttribute="bottom" secondItem="ZPU-FB-3qZ" secondAttribute="bottom" constant="10" id="rWe-64-a2x"/>
+                <constraint firstItem="ZPU-FB-3qZ" firstAttribute="top" secondItem="Q00-nj-VT4" secondAttribute="bottom" constant="20" id="sHS-nX-Eg6"/>
+                <constraint firstItem="HKw-UM-rJO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="tUh-Bs-yOe"/>
+                <constraint firstItem="Q00-nj-VT4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="wdq-G0-5Gq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="99"/>
+        </view>
+    </objects>
+</document>
